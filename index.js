@@ -1,9 +1,9 @@
-petArray = ["Milo", "Otis", "Garfield"]
-const append = petArray;
+
+const append = ["Milo", "Otis", "Garfield"];
     append.push("Odie");
-const prepend = petArray;
+const prepend = ["Milo", "Otis", "Garfield"];
     prepend.unshift("Odie");
-const removeLast = petArray;
+const removeLast = ["Milo", "Otis", "Garfield"];
     removeLast.pop();
-const removeFirst = petArray;
+const removeFirst = ["Milo", "Otis", "Garfield"];
     removeFirst.shift();
